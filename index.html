@@ -5,22 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Família</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; background: #f9f9f9; }
-        h1 { color: #333; }
-        .gallery { display: flex; flex-wrap: wrap; justify-content: center; }
-        .gallery img { width: 300px; height: auto; margin: 10px; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0,0,0,0.1); }
+        /* Configuração do plano de fundo */
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background-image: url('foto/GliaNeurons_960.jpg'); /* Caminho da imagem */
+            background-size: cover; /* Ajusta a imagem para cobrir a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-attachment: fixed; /* Mantém o fundo fixo ao rolar a página */
+            color: white; /* Para melhorar a visibilidade do texto */
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.7); /* Adiciona sombra ao texto */
+        }
+
+        h1 { 
+            color: white; 
+            background: rgba(0, 0, 0, 0.6); /* Fundo semitransparente no título */
+            display: inline-block; 
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .gallery { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            margin-top: 20px;
+        }
+
+        .gallery img { 
+            width: 300px; 
+            height: auto; 
+            margin: 10px; 
+            border-radius: 10px; 
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.5); 
+        }
     </style>
-    </div> {
-  background-image: url('foto/GliaNeurons_960.jpg');
-}
 </head>
 <body>
-    <h1>“Por pior que a vida pareça, sempre há algo que você pode fazer e ter sucesso. Onde há vida, há esperança.”
-― Stephen Hawking</h1>
+    <h1>“Por pior que a vida pareça, sempre há algo que você pode fazer e ter sucesso. Onde há vida, há esperança.” ― Stephen Hawking</h1>
+    
     <div class="gallery">
         <img src="foto/1637385105046.jpg" alt="Foto 1">
         <img src="foto/Screenshot_20181003-075612.png" alt="Foto 2">
         <img src="fotos/foto3.jpg" alt="Foto 3">
     </div>
-</body> 
-
+</body>
+</html>
